@@ -1,0 +1,33 @@
+body{
+    background-color: #D6D6D6;
+    margin:0;
+}
+nav{
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+    top:0;
+    background-color: black;
+    position: sticky;
+    box-sizing: border-box;
+    border: 2px solid white;
+    color: white;
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+    box-shadow: 0px 5px 50px gray;
+}
+li{
+    margin: 5%;
+    padding:50px;
+    list-style: none;
+}
+li:hover{
+    background-color: rgba(100,100,100,0.5);
+}
+nav #logo{
+    height: 100%;
+    position: absolute;
+
+
+}
